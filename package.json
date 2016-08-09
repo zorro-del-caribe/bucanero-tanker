@@ -1,0 +1,39 @@
+{
+  "name": "bucanero-tanker",
+  "version": "1.0.0",
+  "description": "bucanero extension to use ship-hold as data access framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorro-del-caribe/bucanero-tanker.git"
+  },
+  "keywords": [
+    "bucanero",
+    "web",
+    "framework",
+    "koa",
+    "koajs",
+    "ship-hold",
+    "data",
+    "model"
+  ],
+  "author": "Laurent Renard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zorro-del-caribe/bucanero-tanker/issues"
+  },
+  "homepage": "https://github.com/zorro-del-caribe/bucanero-tanker#readme",
+  "dependencies": {
+    "ship-hold": "^1.1.0",
+    "ship-hold-extension-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "bucanero": "git+https://github.com/zorro-del-caribe/bucanero.git",
+    "supertest": "^2.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
